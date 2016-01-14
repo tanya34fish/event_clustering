@@ -16,3 +16,6 @@
 * Automatic Online News Issue Construction in Web Environment (WWW, 2008)
 * A study on retrospective and online event detection (SIGIR, 1998)
 * A comparison of Document Clustering Techniques (1999)
+
+## Presentation ppt
+* https://drive.google.com/open?id=0By01Vupkx9CjNGRmMHJlSG5KOGc
