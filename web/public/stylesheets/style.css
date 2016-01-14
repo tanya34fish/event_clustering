@@ -1,0 +1,32 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+    font-size: 72px;
+}
+#logo {
+  color: #FFFFFF;
+  font-size: 26px;
+  text-align: center;
+}
+
+.panel-title {
+  font-size: 20px;
+  font-weight: bolder;
+  color: blue;
+}
+.starter {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+#title {
+  font-size: 16px;
+  padding: 8px 8px;
+}

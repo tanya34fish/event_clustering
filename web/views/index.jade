@@ -1,0 +1,33 @@
+extends layout
+
+block body_content
+    nav.navbar.navbar-inverse.navbar-fixed-top
+        .container
+            #navbar.collapse.navbar-collapse
+                .navbar-brand#logo
+                    | DS FINAL PROJECT
+                ul.nav.navbar-nav
+                    li.active
+                        a#home
+                            | 首頁
+                    li
+                        a#popular
+                            | 熱門
+                    li
+                        a#developer
+                            | 作者
+    .container
+        .starter
+            h1
+                | PTT 新聞溫度計
+            p.lead
+                | 使用Hierarchical Clustering演算法對PTT新聞分群及追蹤
+            h3 2015-10-19
+        - var keys = Object.keys(ctrl_topics)
+        - each key, index in keys
+            .panel.panel-default
+                .panel-heading
+                    h1.panel-title #{ctrl_topics[key].cluster_hotterm}
+                .panel-body
+                    - each title in ctrl_topics[key].cluster_doc
+                        li(id="title") #{title}
